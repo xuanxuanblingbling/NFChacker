@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">NFChacker</string>
+    <string name="action_settings">日志</string>
+    <string name="servicedesc">Payment with Host</string>
+
+    <string name="paymentGroup">Payment Group</string>
+    <string name="PPSE">PayPass Payment System Environment</string>
+    <string name="MasterCard">MasterCard</string>
+    <string name="test">测试用例</string>
+
+    <string name="otherGroup">Other Group</string>
+    <string name="example">Example</string>
+
+</resources>
