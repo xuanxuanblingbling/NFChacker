@@ -2,16 +2,14 @@
 
 [NFC基础](https://xuanxuanblingbling.github.io/nfc/2018/07/29/NFC/)  
 
-Android HCE开发](https://xuanxuanblingbling.github.io/ctf/android/2018/07/29/AndriodHCE/)   
-
+[Android HCE开发](https://xuanxuanblingbling.github.io/ctf/android/2018/07/29/AndriodHCE/)   
 
 对于NFC的攻击可以分为攻击卡与攻击读卡器：
 
 - 攻击卡就是用android模拟读卡器，给卡发送payload
 - 攻击读卡器就是用android模拟卡，给读卡器发送payload
 
-目前只通过了android的HCE功能实现了模拟卡，即攻击读卡器，并且可以根据某公司泄露的内部技术手册可以了解常用的APDU指令
-
+目前只通过了android的HCE功能实现了模拟卡，即攻击读卡器  
 
 ## 代码结构
 
@@ -48,7 +46,7 @@ assets目录下的初始HCE实例文件，最终会被释放到/sdcard/NFChacker
 
 /sdcard/MTYNFChacker/data/*.txt
 
-内容是一个json数组的字符串，数组的第一个json对象是查表数据，第二个json对象是特殊规则，如测试用例
+内容是一个json数组的字符串，数组的第一个json对象是查表数据，第二个json对象是特殊规则，如测试用例（可以根据某公司泄露的内部技术手册可以了解常用的APDU）
 
 ```JSON
 [{
