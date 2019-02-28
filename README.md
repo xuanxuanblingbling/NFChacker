@@ -44,7 +44,7 @@ assets目录下的初始HCE实例文件，最终会被释放到/sdcard/NFChacker
 
 ### 配置文件
 
-/sdcard/MTYNFChacker/data/*.txt
+/sdcard/NFChacker/data/*.txt
 
 内容是一个json数组的字符串，数组的第一个json对象是查表数据，第二个json对象是特殊规则，如测试用例（可以根据某公司泄露的内部技术手册可以了解常用的APDU）
 
